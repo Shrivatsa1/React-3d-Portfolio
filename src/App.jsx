@@ -1,3 +1,5 @@
+import AboutSection from "./components/AboutSection";
+import CustomCursor from "./components/CustomCursor";
 import Header from "./components/Header";
 import Header1 from "./components/Header1";
 import HeroSection from "./components/HeroSection";
@@ -9,6 +11,8 @@ export default function App() {
     {/* <Header /> */}
     <Header1 />
     <HeroSection />
+    <CustomCursor />
+    <AboutSection /> 
     {/* <ProjectsSection /> */}
     </>
   )

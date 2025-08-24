@@ -28,7 +28,7 @@ const HeroSection = () => {
                         type: "spring",
                         stiffness: 40,
                         damping: 25,
-                        delay: 1.6,
+                        delay: 1.8,
                         duration: 1.5,
                     }}
 
@@ -40,7 +40,9 @@ const HeroSection = () => {
 
             {/* right section  */}
 
-            <Spline scene="https://prod.spline.design/ocGPnGFk121FnZrB/scene.splinecode" />
+            {/* <Spline className="absolute xl:right-[-28%] right-0 top-[-20%] lg:top-0" scene="https://prod.spline.design/ocGPnGFk121FnZrB/scene.splinecode" /> */}
+            <Spline scene="https://prod.spline.design/ocGPnGFk121FnZrB/scene.splinecode" /> 
+            
         </section>
     )
 }
